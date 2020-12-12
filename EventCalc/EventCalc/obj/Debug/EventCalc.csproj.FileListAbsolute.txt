@@ -1,0 +1,11 @@
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\bin\Debug\EventCalc.exe.config
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\bin\Debug\EventCalc.exe
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\bin\Debug\EventCalc.pdb
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\obj\Debug\EventCalc.csprojAssemblyReference.cache
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\obj\Debug\EventCalc.Form1.resources
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\obj\Debug\EventCalc.Properties.Resources.resources
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\obj\Debug\EventCalc.csproj.GenerateResource.cache
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\obj\Debug\EventCalc.csproj.CoreCompileInputs.cache
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\obj\Debug\EventCalc.exe
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\obj\Debug\EventCalc.pdb
+D:\csharp\gitDoNotAfraid\EventCalc\EventCalc\obj\Debug\EventCalc.ButtonControl.resources
