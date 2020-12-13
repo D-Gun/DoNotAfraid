@@ -29,20 +29,10 @@ namespace EventCalc
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonControl1 = new EventCalc.ButtonControl();
             this.lbl1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbxNumber = new System.Windows.Forms.TextBox();
+            this.buttonControl1 = new EventCalc.ButtonControl();
             this.SuspendLayout();
-            // 
-            // buttonControl1
-            // 
-            this.buttonControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonControl1.Location = new System.Drawing.Point(1, 68);
-            this.buttonControl1.Name = "buttonControl1";
-            this.buttonControl1.Size = new System.Drawing.Size(370, 387);
-            this.buttonControl1.TabIndex = 0;
             // 
             // lbl1
             // 
@@ -54,22 +44,32 @@ namespace EventCalc
             this.lbl1.Size = new System.Drawing.Size(0, 12);
             this.lbl1.TabIndex = 2;
             // 
-            // textBox1
+            // tbxNumber
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Gulim", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox1.Location = new System.Drawing.Point(1, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(370, 41);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbxNumber.Enabled = false;
+            this.tbxNumber.Font = new System.Drawing.Font("Gulim", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tbxNumber.Location = new System.Drawing.Point(1, 21);
+            this.tbxNumber.Name = "tbxNumber";
+            this.tbxNumber.Size = new System.Drawing.Size(370, 41);
+            this.tbxNumber.TabIndex = 3;
+            this.tbxNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // buttonControl1
+            // 
+            this.buttonControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonControl1.Location = new System.Drawing.Point(1, 68);
+            this.buttonControl1.Name = "buttonControl1";
+            this.buttonControl1.Size = new System.Drawing.Size(370, 387);
+            this.buttonControl1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(371, 457);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbxNumber);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.buttonControl1);
             this.Name = "Form1";
@@ -83,7 +83,7 @@ namespace EventCalc
 
         private ButtonControl buttonControl1;
         private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbxNumber;
     }
 }
 
