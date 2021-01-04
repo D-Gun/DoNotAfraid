@@ -16,12 +16,12 @@ namespace Mapctr
         public XtraForm1()
         {
             InitializeComponent();
-            InitStation();
+            //InitStation();
         }
 
-        private void InitStation()
-        {
-            xtraUserControl11.map;
-        }
+        //private void InitStation()
+        //{
+        //    xtraUserControl11.map;
+        //}
     }
 }

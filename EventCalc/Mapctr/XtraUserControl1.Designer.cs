@@ -54,7 +54,7 @@ namespace Mapctr
             this.imageLayer1.DataProvider = this.bingMapDataProvider1;
             this.bingMapDataProvider1.BingKey = "Ajpgpwdlqkf9o_r7GaID0kgX3FEOrhBQYLBVC62hdzkfP0Ekn-Mv8NrNJW8q9bzC";
             this.vectorItemsLayer1.Data = this.shapefileDataAdapter1;
-            this.shapefileDataAdapter1.FileUri = new System.Uri("C:\\Users\\G\\Downloads\\TL_SCCO_SIG_W_SHP\\TL_SCCO_SIG_W.shp", System.UriKind.Absolute);
+            this.shapefileDataAdapter1.FileUri = new System.Uri("C:\\gitDoNotAfraid\\TL_SCCO_SIG_W_SHP\\TL_SCCO_SIG_W.shp", System.UriKind.Absolute);
             // 
             // XtraUserControl1
             // 
