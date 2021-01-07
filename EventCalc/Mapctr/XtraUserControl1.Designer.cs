@@ -29,8 +29,6 @@ namespace Mapctr
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraMap.ChoroplethColorizer choroplethColorizer1 = new DevExpress.XtraMap.ChoroplethColorizer();
-            DevExpress.XtraMap.LinearRangeDistribution linearRangeDistribution1 = new DevExpress.XtraMap.LinearRangeDistribution();
             this.mapControl1 = new DevExpress.XtraMap.MapControl();
             this.imageLayer1 = new DevExpress.XtraMap.ImageLayer();
             this.bingMapDataProvider1 = new DevExpress.XtraMap.BingMapDataProvider();
@@ -43,10 +41,10 @@ namespace Mapctr
             // 
             this.mapControl1.CenterPoint = new DevExpress.XtraMap.GeoPoint(37.505D, 127D);
             this.mapControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mapControl1.EnableScrolling = true;
             this.mapControl1.Layers.Add(this.imageLayer1);
             this.mapControl1.Layers.Add(this.vectorItemsLayer1);
             this.mapControl1.Location = new System.Drawing.Point(0, 0);
+            this.mapControl1.MapEditor.CanRemoveItems = false;
             this.mapControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mapControl1.MaxZoomLevel = 12D;
             this.mapControl1.MinZoomLevel = 10D;
@@ -62,11 +60,7 @@ namespace Mapctr
             this.mapControl1.MapItemClick += new DevExpress.XtraMap.MapItemClickEventHandler(this.mapControl1_MapItemClick);
             this.imageLayer1.DataProvider = this.bingMapDataProvider1;
             this.bingMapDataProvider1.BingKey = "Ajpgpwdlqkf9o_r7GaID0kgX3FEOrhBQYLBVC62hdzkfP0Ekn-Mv8NrNJW8q9bzC";
-            choroplethColorizer1.RangeDistribution = linearRangeDistribution1;
-            this.vectorItemsLayer1.Colorizer = choroplethColorizer1;
             this.vectorItemsLayer1.Data = this.shapefileDataAdapter1;
-            this.vectorItemsLayer1.EnableSelection = true;
-            this.vectorItemsLayer1.EnableHighlighting = true;
             this.shapefileDataAdapter1.FileUri = new System.Uri("C:\\Users\\kccistc\\source\\repos\\CsStudyASY\\DoNotAfraid\\TL_SCCO_SIG_W_SHP\\TL_SCCO_SI" +
         "G_W.shp", System.UriKind.Absolute);
             // 

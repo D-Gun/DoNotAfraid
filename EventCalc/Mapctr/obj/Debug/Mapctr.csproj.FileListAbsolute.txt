@@ -310,3 +310,5 @@ C:\Users\kccistc\source\repos\CsStudyASY\DoNotAfraid\EventCalc\Mapctr\obj\Debug\
 C:\Users\kccistc\source\repos\CsStudyASY\DoNotAfraid\EventCalc\Mapctr\obj\Debug\Mapctr.csproj.CopyComplete
 C:\Users\kccistc\source\repos\CsStudyASY\DoNotAfraid\EventCalc\Mapctr\obj\Debug\Mapctr.exe
 C:\Users\kccistc\source\repos\CsStudyASY\DoNotAfraid\EventCalc\Mapctr\obj\Debug\Mapctr.pdb
+C:\Users\kccistc\source\repos\CsStudyASY\DoNotAfraid\EventCalc\Mapctr\bin\Debug\dBASE.NET.dll
+C:\Users\kccistc\source\repos\CsStudyASY\DoNotAfraid\EventCalc\Mapctr\bin\Debug\dBASE.NET.xml
