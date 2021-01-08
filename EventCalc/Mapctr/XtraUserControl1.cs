@@ -39,7 +39,6 @@ namespace Mapctr
         private void mapControl1_SelectionChanged(object sender, MapSelectionChangedEventArgs e)
         {
 
-            MessageBox.Show(shapefileDataAdapter1.ToString());
         }
 
 
