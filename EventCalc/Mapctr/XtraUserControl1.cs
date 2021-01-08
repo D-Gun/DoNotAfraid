@@ -26,14 +26,11 @@ namespace Mapctr
         private void mapControl1_MapItemClick(object sender, MapItemClickEventArgs e)
         {
             mapControl1.MapUnitToCoordPoint(DevMap);
-            vectorItemsLayer1.SelectedItemStyle.Fill = Color.Blue;
-            
         }
         
         private void XtraUserControl1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(shapefileDataAdapter1.ToString());
-
+            //MessageBox.Show(shapefileDataAdapter1.ToString());
         }
 
         private void mapControl1_SelectionChanged(object sender, MapSelectionChangedEventArgs e)

@@ -63,6 +63,7 @@ namespace Mapctr
             this.vectorItemsLayer1.Data = this.shapefileDataAdapter1;
             this.shapefileDataAdapter1.FileUri = new System.Uri("C:\\Users\\kccistc\\source\\repos\\CsStudyASY\\DoNotAfraid\\TL_SCCO_SIG_W_SHP\\TL_SCCO_SI" +
         "G_W.shp", System.UriKind.Absolute);
+            this.vectorItemsLayer1.SelectedItemStyle.Fill = System.Drawing.Color.Blue;
             // 
             // XtraUserControl1
             // 
