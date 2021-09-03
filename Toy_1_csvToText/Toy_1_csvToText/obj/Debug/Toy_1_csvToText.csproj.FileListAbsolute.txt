@@ -1,0 +1,7 @@
+C:\Users\daege\source\repos\Toy_1_csvToText\Toy_1_csvToText\bin\Debug\Toy_1_csvToText.exe.config
+C:\Users\daege\source\repos\Toy_1_csvToText\Toy_1_csvToText\bin\Debug\Toy_1_csvToText.exe
+C:\Users\daege\source\repos\Toy_1_csvToText\Toy_1_csvToText\bin\Debug\Toy_1_csvToText.pdb
+C:\Users\daege\source\repos\Toy_1_csvToText\Toy_1_csvToText\obj\Debug\Toy_1_csvToText.csproj.AssemblyReference.cache
+C:\Users\daege\source\repos\Toy_1_csvToText\Toy_1_csvToText\obj\Debug\Toy_1_csvToText.csproj.CoreCompileInputs.cache
+C:\Users\daege\source\repos\Toy_1_csvToText\Toy_1_csvToText\obj\Debug\Toy_1_csvToText.exe
+C:\Users\daege\source\repos\Toy_1_csvToText\Toy_1_csvToText\obj\Debug\Toy_1_csvToText.pdb
