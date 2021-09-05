@@ -18,8 +18,9 @@ namespace Toy_1_csvToText
             Console.WriteLine("FilePath : " + Dic.FilePath);
             Console.WriteLine("ConnectString : " + Dic.ConnectionString);
             FileInfo[] fileInfoInDir = fu.getFileList(Dic.FilePath);
-            string result = fu.ReadFileToString(fileInfoInDir, "Test.txt");
+            string result = fu.ReadFileToString(fileInfoInDir, "TestFile.CSV");
             Console.WriteLine(result);
+            fu.WriteTextInTxtFile(fileInfoInDir,"Testresult.txt",result);
             //파일 리스트를 바탕으로 .csv파일 내 data 가공하여 string[]로 반환
             //string[] 의 내용을 가공하여 .txt로 export
 
