@@ -7,9 +7,9 @@ using System.IO;
 
 namespace Toy_1_csvToText
 {
-    class FileUtil
+    static class FileUtil
     {
-        public string ReadFileToString(FileInfo[] fileInfo, string fileName)
+        public static string ReadFileToString(FileInfo[] fileInfo, string fileName)
         {
             string tmp = "";
             try
@@ -31,6 +31,7 @@ namespace Toy_1_csvToText
                         tmp = sr.ReadToEnd();
                         File.Delete(parentDirPath + "\\FailFlag");
                     }
+                    sr.Close();
                 }
             }
             catch(Exception ex)
@@ -40,7 +41,7 @@ namespace Toy_1_csvToText
             return tmp;
         }
 
-        public void WriteTextInTxtFile(FileInfo[] fileInfo, string fileName, string resultTxt)
+        public static void WriteTextInTxtFile(FileInfo[] fileInfo, string fileName, string resultTxt)
         {
             try
             {
@@ -64,7 +65,9 @@ namespace Toy_1_csvToText
                         sw.Write(resultTxt);
                         File.Delete(parentDirPath + "\\FailFlag");
                     }
+                    sw.Close();
                 }
+                
             }
             catch(Exception ex)
             {
@@ -72,7 +75,7 @@ namespace Toy_1_csvToText
             }
         }
 
-        public FileInfo[] getFileList(string filepath)
+        public static FileInfo[] GetFileList(string filepath)
         {
             DirectoryInfo di = new DirectoryInfo(filepath);
             FileInfo[] fileInfo = di.GetFiles();

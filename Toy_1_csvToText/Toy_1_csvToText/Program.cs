@@ -11,18 +11,17 @@ namespace Toy_1_csvToText
     {
         static void Main(string[] args)
         {
-            //File클래스 생성
-            //FileStream fs = File.Create("test.txt");
-            //폴더 내의 파일 리스트 얻기.
-            FileUtil fu = new FileUtil();
+            //FilePath check
             Console.WriteLine("FilePath : " + Dic.FilePath);
+            //ConnectionString check
             Console.WriteLine("ConnectString : " + Dic.ConnectionString);
-            FileInfo[] fileInfoInDir = fu.getFileList(Dic.FilePath);
-            string result = fu.ReadFileToString(fileInfoInDir, "TestFile.CSV");
-            Console.WriteLine(result);
-            fu.WriteTextInTxtFile(fileInfoInDir,"Testresult.txt",result);
-            //파일 리스트를 바탕으로 .csv파일 내 data 가공하여 string[]로 반환
-            //string[] 의 내용을 가공하여 .txt로 export
+            
+            //getFileList From FilePath
+            FileInfo[] fileInfoInDir = FileUtil.GetFileList(Dic.FilePath);
+            string result = FileUtil.ReadFileToString(fileInfoInDir, "TestFile.CSV");
+            Console.WriteLine("Read Text : \r\n" + result);
+            //FileUtil.WriteTextInTxtFile(fileInfoInDir,"Testresult.txt",result);
+            DBUtil.InsertData(Dic.ConnectionString, result);
 
         }
     }
